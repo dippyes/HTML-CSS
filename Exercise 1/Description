@@ -1,0 +1,13 @@
+﻿HTML introduction
+
+Tags[opening -> closing], Structure, boilerplate template.
+Finish product:
+<!DOCTYPY html>
+<html>
+    <head>
+        <title>Baby pandas rock!</title>
+    </head>
+    <body>
+    <h1>I hate murlocks!</h1>
+    </body>
+</html>
