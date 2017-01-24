@@ -1,0 +1,25 @@
+Exercise 3:
+    Linking stylesheets to HTML page.
+    Explanation on clean HTML and separation between styling and structure.
+    Tags reference: href, type, rel
+example:
+<link href="/style.css" type="text/css" rel="stylesheet" />
+
+Fonts:
+The font specified in a stylesheet must be installed on a user's computer in order for that font to display when a user visit the web page. 
+
+font-size: 16 px default.
+
+Serif and Sans-Serif
+
+line-height - interesting concept (Space between lines) - ease the reading. Default maybe 1.5 em.
+
+word-spacing - space between words: 0.3em default (not common).
+
+letter-spacing - Space between words! (kerning) (not common).
+
+font-weight - bold, italic (style of the text).
+font-style - same as weight but for italic.
+text-transform - Uppercase / Lowercase
+
+text-align - align the side on which the text will stay
