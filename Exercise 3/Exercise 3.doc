@@ -1,6 +1,8 @@
 Exercise 3:
-    Linking stylesheets to HTML page.
-    Explanation on clean HTML and separation between styling and structure.
-    Tags reference: href, type, rel
+
+- Linking stylesheets to HTML page.
+- Explanation on clean HTML and separation between styling and structure.
+- Tags reference: href, type, rel
+ 
 example:
 <link href="/style.css" type="text/css" rel="stylesheet" />

@@ -12,3 +12,12 @@ h1,p {
   color:DarkSlateGray;
 }
 /* Adding comment */
+a {
+	color: lightgreen;
+	text-decoration: none;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #4d5fb04d;
+
+
+}
