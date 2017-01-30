@@ -1,0 +1,53 @@
+Padding and Margins:
+
+Padding - useful at making text easier to read when there is a border.
+shortcuts regarding UP LEFT BOTT RIGHT values
+padding-left, padding-top, padding-right, padding-bottom
+
+Margin- crucial for element positioning.
+
+    margin-top
+    margin-right
+    margin-bottom
+    margin-left
+
+Margin centering!!
+    margin: auto;
+In order to center an element, a width must be set for that element. Otherwise, the width of the div will be automatically set to the full width of its containing element, like the <body>, for example. It's not possible, therefore, to center an element that takes up the full width of the page.
+
+example:
+div.headline {
+  width: 400px;
+  margin: auto;
+}
+
+When margin: auto is used, an element will center relative to its container. For example If the div was contained in larger div, the smaller div would center relative to the width of the larger div. This is important to keep in mind when attempting to center nested elements, like divs.
+
+Reset:
+*{
+margin:0;
+padding:0;
+}
+
+
+
+    Inline elements - elements that display inline with text, without disrupting the flow of the text (like links).
+
+    Block-level elements - elements that use an entire line of space in a web page and disrupt the natural flow of text. Most of the common HTML elements are block-level elements (headings, paragraphs, divs, and more).
+
+display - change between inline, block, inline-block, none!!!!!
+    
+    inline - causes block-level elements (like a div) to behave like an inline element (like a link).
+    block - causes inline elements (like a link) to behave like a block element (like a div).
+    inline-block - causes block-level elements to behave like an inline element, but retain the features of a block-level element.
+    none - removes an element from view. The rest of the web page will act as if the element does not exist.
+
+visibility - the item is visible or not but the space is saved in the browser.
+
+Learned:
+
+
+    1.Padding is the spacing between a box's content and the borders of the box.
+    2.Padding can be set equally on all sides of the content, or can be set specifically for certain sides of the content only.
+    3.Margin is the spacing directly outside of a box's borders.
+    4.Margins can be set equally on all sides of a box, or can be set specifically for certain sides of the box only.
