@@ -1,0 +1,35 @@
+﻿Positioning:
+
+Positioning of box elements:
+
+Static - default value
+
+relative - it positions the element relative to the page (it should be used the offset attributes TOP LEFT, BOTTOM, RIGHT - if no relative positioning is set, they will not take effect).
+
+absolute - all other elements on the page will ignore the element and act like it is not present on the page. If offset properties aren't specified, it's possible for the div's content to overlap with other content on the page, especially since other elements with ignore the div.
+
+fixed - it will be pinned to the screen, will ignore any other element and stay static in the screen as if glued :-P
+Content may overlap, good practice is to set a background color to evade this issue.
+
+z-index property controls how far "back" or how far "forward" an element should appear on the web page.
+
+float - makes the element not use the whole space of the screen making the object floating as image overflow.
+The float property can be set to one of two values:
+
+    left - this value will move, or float, elements as far left as possible.
+    right - this value will move elements as far right as possible.
+    
+Floated elements must have a width specified, as in the example above. Otherwise, the element will assume the full width of its containing element, and attempting to float the element may not yield any visible results.
+
+When multiple floated elements have different heights, however, this can affect their layout on the page. 
+
+Clear - how elements behave when they are floated.
+
+Learn review:
+1. The position property allows you to specify the position of an element in three different ways. 
+2. When set to relative, an element's position is relative to its default position on the page. 
+3. When set to absolute, an element's position can be pinned to any part of the web page, but the element will still move out of view the page is scrolled. 
+4. When set to fixed, an element's position can be pinned to any part of the web page. The element will remain in view no matter what. 
+5. The z-index of an element specifies how far back or how far forward an element appears should appear on the page. 
+6. The float property can move elements as far left or as far right as possible on a web page. 
+7. You can clear an element's left or right side (or both) using the clear property. 
