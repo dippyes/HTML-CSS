@@ -1,0 +1,41 @@
+Tables:
+<tr> - for a row.
+<td> - for a number of columns (data) during a single row.
+<th> - table headings.
+
+scale attribute for <th> 
+it can take one of two values:
+
+    row - this value makes it clear that the heading is for a row.
+    col - this value makes it clear that the heading is for a column.
+
+borders:
+table, td {
+  border: 1px solid black;
+}
+
+colspan - number of <td>'s to be occupied. =]
+<td colspan="2">
+rowspan - number of <tr>'s to be occupied ;).
+
+<tbody> - table body location for the data.
+<thead> - table heading location for headings.
+<tfoot> - contains data results.
+
+learned so far:
+
+    The <table> element creates a table.
+    The <tr> element adds rows to a table.
+    To add data to a row, you can use the <td> element.
+    Table headings clarify the meaning of data. Headings are added with the <th> element.
+    Table data can span columns using the colspan attribute.,
+    Table data can span rows using the rowspan attribute.
+    Tables can be split into three main sections: a head, a body, and a footer.
+    A table's head is created with the <thead> element.
+    A table's body is created with the <tbody> element.
+    A table's footer is created with the <tfoot> element.
+    All the CSS properties you learned about in this course can be applied to tables and their data.
+
+Congratulations on completing the HTML & CSS course! This course is meant to give you exposure to the fundamentals of HTML & CSS. In later HTML & CSS courses, you'll explore more advanced topics, like HTML5, special CSS selectors and positioning, responsive design, and much more.
+
+We hope you enjoyed the course!

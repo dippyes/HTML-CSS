@@ -1,0 +1,4 @@
+Tables:
+<tr> - for a row.
+<td> - for a number of columns (data) during a single row.
+<th> - table headings.
