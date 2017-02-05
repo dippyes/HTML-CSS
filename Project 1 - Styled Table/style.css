@@ -1,0 +1,96 @@
+* {
+	margin:0;
+	padding: 0;
+
+}
+body{
+	background-color: #252D2D;
+}
+main {
+	width: 90%;
+	margin: 5.1em auto 0 auto;
+}
+h1 {
+	width: 30%;
+	margin:0 auto;
+	padding-left: 10%;
+	background: -webkit-linear-gradient(top left, #36B8E9, #1CBDB7);
+	background:    -moz-linear-gradient(top left, #36B8E9, #1CBDB7);
+	background:     -ms-linear-gradient(top left, #36B8E9, #1CBDB7);
+	background:      -o-linear-gradient(top left, #36B8E9, #1CBDB7);
+	background:      linear-gradient(top|left, #36B8E9, #1CBDB7);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#search{
+	position: relative;
+	width: 100%;
+	margin:0 auto;
+	padding-left: 2.3%;
+
+}
+#search input{
+	display:block;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#search_icon{
+	position: absolute;
+	font-size: 1.3em;
+	top:8%;
+	left:17.5%;
+}
+#keyWord{
+	border:1px solid #ccc;
+	width: 70%;
+	height:36px;
+	margin: 0 auto;
+	padding-left: 2.6%;
+	border-radius: 6px;
+	font-size: 1.3em;
+	-webkit-transition: border-color .15s ease-in-out, box-shadow .15s, ease-in-out;
+	   -moz-transition: border-color .15s ease-in-out, box-shadow .15s, ease-in-out;
+	    -ms-transition: border-color .15s ease-in-out, box-shadow .15s, ease-in-out;
+	     -o-transition: border-color .15s ease-in-out, box-shadow .15s, ease-in-out;
+	        transition: border-color .15s ease-in-out, box-shadow .15s, ease-in-out;
+}
+#keyWord:focus{
+	border-color: #36B8E9;
+	box-shadow: inset 0 1px 1px #E6F2FB;
+	
+}
+.button {
+	border:0;
+	width: 35%;
+	margin:1px auto;
+   border-top: 1px solid #008ae0;
+   background: #88bbdb;
+   background: -webkit-gradient(linear, left top, left bottom, from(#408dbd), to(#88bbdb));
+   background: -webkit-linear-gradient(top, #408dbd, #88bbdb);
+   background: -moz-linear-gradient(top, #408dbd, #88bbdb);
+   background: -ms-linear-gradient(top, #408dbd, #88bbdb);
+   background: -o-linear-gradient(top, #408dbd, #88bbdb);
+   padding: 6px 19px;
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #f2e6f2;
+   font-size: 16px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #4381a8;
+   background: #4381a8;
+   color: #ffffff;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
